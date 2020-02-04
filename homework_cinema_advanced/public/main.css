@@ -1,30 +1,60 @@
+/* MAIN */
 body {
   background-color: dodgerblue;
   font-family: sans-serif;
 }
 
-.titles {
+/* div {
+  border: solid;
+  border-color: red;
+  border-width: thin;
+} */
+
+main {
+  display: inline-flex;
+}
+
+.container {
   display: flex;
   width: 100%;
   justify-content: center;
 }
 
+.titles {
+  width: 30%;
+}
+
+.film {
+  width: 30%;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+}
+
 ul {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
+
 }
 
 li {
   list-style: none;
   padding: 20px;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: white;
+}
+
+.titles li:hover {
+  background-color: yellow;
 }
 
 a {
   text-decoration: none;
   font-size: 50px;
   color: white;
-  border-bottom: solid;
-  border-width: thin;
-  border-color: grey;
+}
+
+.back {
+  font-size: 25px;
 }

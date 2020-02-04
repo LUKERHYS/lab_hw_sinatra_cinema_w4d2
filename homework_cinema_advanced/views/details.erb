@@ -1,0 +1,14 @@
+<div class="container">
+  <h1><%= @film.title %></h1>
+  <div class="film">
+    <ul>
+      <li>
+        <a><%= @film.title %></a>
+      </li>
+      <li>
+        <a>£<%= @film.price.round(3) %></a>
+      </li>
+    </ul>
+    <a class="back" href="/films"> back</a>
+  </div>
+</div>
